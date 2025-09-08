@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Akasha Chronik Grundkurs Level 1 · zum „AKASHA Life® Medium Reader in den Energien der Neuen Zeit“</title>
+  <meta name="description" content="Akasha Chronik Grundkurs Level 1 – zum „AKASHA Life® Medium Reader in den Energien der Neuen Zeit“. Lerne, in deiner eigenen Akasha‑Chronik zu lesen. Live‑Online in Kleingruppe. Mit Einweihung in die LOVE & LIGHT Heilenergie, Zertifikat, Skript & persönlichem Heilungstool." />
+  <meta property="og:title" content="Akasha Chronik Grundkurs Level 1" />
+  <meta property="og:description" content="Grundkurs für dich selbst – zum „AKASHA Life® Medium Reader in den Energien der Neuen Zeit“. Online, live, in Kleingruppe. Mit Einweihung, Zertifikat & persönlichem Heilungstool." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="de_DE" />
+  <meta name="theme-color" content="#e6b800" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      /* Helles Theme mit Akasha‑Anmutung */
+      --ink:#1a213a;              /* Primärtext – dunkles Blau */
+      --text-muted:#4b5270;       
+      --bg1:#fbfbff;              /* sehr hell */
+      --bg2:#ffffff;              /* Weiß */
+      --card:#ffffff;             /* Kartenhintergrund */
+      --border:#e6e8f2;           /* zarte Linien */
+      --gold:#caa969;             /* Gold Akzent */
+      --magenta:#c94a9a;          /* Magenta Akzent – softer */
+      --magenta-2:#e784c0;        /* heller Verlauf */
+      --violet:#8c6ad2;           /* Violett Akzent */
+      --ring: rgba(202,169,105,.35);
+      --radius:18px;
+      --shadow: 0 8px 28px rgba(18,24,51,.08);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;background:linear-gradient(180deg,var(--bg1),var(--bg2));color:var(--ink);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,sans-serif;line-height:1.6}
+    .container{width:min(1100px,92vw);margin-inline:auto}
+    a{color:var(--magenta);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .btn{display:inline-block;padding:14px 20px;border-radius:999px;background:linear-gradient(135deg,var(--magenta),var(--magenta-2));color:#fff;font-weight:700;box-shadow:0 10px 28px rgba(201,74,154,.24);border:none}
+    .btn:hover{transform:translateY(-1px);box-shadow:0 14px 36px rgba(201,74,154,.32)}
+    .btn.alt{background:linear-gradient(135deg,var(--gold),#f1dda9);color:#0a0a0a;box-shadow:0 10px 30px rgba(202,169,105,.22)}
+
+    header.hero{position:relative;overflow:hidden;padding:18px 0 48px;border-bottom:1px solid var(--border)}
+    .hero-bg{position:absolute;inset:0;pointer-events:none;opacity:.12;background:radial-gradient(1200px 600px at 70% -10%, #ffb700 0%, transparent 60%), radial-gradient(1100px 700px at -10% 10%, #d36bb3 0%, transparent 60%), radial-gradient(900px 500px at 110% 60%, #8c6ad2 0%, transparent 60%)}
+    .brand{height:72px; width:auto; display:block}
+    .badge{display:inline-flex;gap:8px;align-items:center;font-size:.86rem;padding:6px 12px;border:1px solid var(--ring);border-radius:999px;background:#fff}
+    .title{font-family:"Playfair Display",serif;font-weight:700;letter-spacing:.3px;line-height:1.15;margin:12px 0}
+    .title span{background:linear-gradient(135deg,#c94a9a 0%, #e6b800 50%, #8c6ad2 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .subline{margin:6px 0 14px;color:var(--text-muted)}
+
+    .grid{display:grid;gap:24px}
+    .two{grid-template-columns:1.1fr .9fr}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow)}
+    .list{margin:0;padding-left:20px}
+    .list li{margin:6px 0}
+    .muted{color:var(--text-muted)}
+    .section{padding:44px 0}
+    .kicker{letter-spacing:.12em;text-transform:uppercase;color:#7b82a6;font-weight:700;font-size:.8rem}
+    .stamp{position:absolute;inset:auto -60px -60px auto;rotate:-12deg;opacity:.06;font-size:150px;font-family:"Playfair Display",serif;color:#000}
+
+    .underbar{height:1px;background:linear-gradient(90deg,transparent, var(--border), transparent);margin:8px 0 14px}
+
+    /* CTA Bar sticky */
+    .cta-bar{position:sticky;bottom:0;backdrop-filter:blur(8px);background:linear-gradient(180deg,rgba(255,255,255,.75),rgba(255,255,255,.93));border-top:1px solid var(--border);padding:12px}
+    .cta-wrap{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+
+    /* FAQ */
+    details{border:1px solid var(--border);border-radius:12px;padding:16px;background:#fff;box-shadow:var(--shadow)}
+    summary{cursor:pointer;font-weight:700}
+    details+details{margin-top:12px}
+
+    /* Footer */
+    footer{padding:32px 0 56px;color:#7b82a6;font-size:.92rem}
+
+    /* Responsive */
+    @media (max-width: 920px){
+      .two{grid-template-columns:1fr}
+      header.hero{padding-bottom:28px}
+      .brand{height:60px}
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Akasha Chronik Grundkurs Level 1 – zum \"AKASHA Life® Medium Reader in den Energien der Neuen Zeit\"",
+    "description": "Lerne, in deiner eigenen Akasha‑Chronik zu lesen. Live‑Online in Kleingruppe. Mit Einweihung in die LOVE & LIGHT Heilenergie, Zertifikat & persönlichem Heilungstool.",
+    "provider": { "@type": "Organization", "name": "AKASHA Life®", "sameAs": "" },
+    "hasCourseInstance": {
+      "@type": "CourseInstance",
+      "courseMode": "online",
+      "location": {"@type":"VirtualLocation","url":""},
+      "startDate": "2025-10-25",
+      "endDate": "2025-10-26",
+      "offers": {"@type":"Offer","price":"299","priceCurrency":"EUR","availability":"https://schema.org/InStock"}
+    }
+  }
+  </script>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="container grid two">
+      <div>
+        <!-- LOGO: ersetze logo.png durch deinen Pfad/Dateinamen -->
+        <img class="brand" src="logo.png" alt="AKASHA Life® – Lizenzierte Mentorin Logo" />
+        <div style="height:10px"></div>
+        <div class="badge">🌟 Live‑Online · Kleingruppe · Mit Einweihung</div>
+        <h1 class="title">
+          Akasha Chronik <span>Grundkurs Level 1</span>
+        </h1>
+        <div class="subline">zum „AKASHA Life® Medium Reader in den Energien der Neuen Zeit“</div>
+        <div class="underbar"></div>
+        <p class="muted">Lerne, in deiner eigenen Akasha‑Chronik zu lesen – klar geführt, liebevoll gehalten. Mit Einweihung in die <strong>LOVE &amp; LIGHT Heilenergie der Neuen Zeit</strong> und deinem persönlichen Heilungstool (HT1) für Zuhause.</p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin:20px 0 8px">
+          <a class="btn" href="mailto:antje@lutze-coaching.de?subject=Anmeldung%20Akasha%20Chronik%20Grundkurs%20Level%201&body=Hallo%20Antje%2C%0D%0Aich%20m%C3%B6chte%20mich%20zum%20Akasha%20Chronik%20Grundkurs%20Level%201%20anmelden.%20Bitte%20sende%20mir%20die%20n%C3%A4chsten%20Schritte.%0D%0AVielen%20Dank!">Jetzt per E‑Mail anmelden</a>
+          <a class="btn alt" href="#infos">Alle Kursinfos</a>
+        </div>
+        <p class="muted" style="margin:0">📧 Oder direkt schreiben: <strong>antje@lutze-coaching.de</strong></p>
+      </div>
+      <div class="card">
+        <div class="kicker">Nächster Termin</div>
+        <h3 style="margin:6px 0 10px">25.–26. Oktober 2025</h3>
+        <ul class="list">
+          <li>Samstag 10:00–17:00 Uhr</li>
+          <li>Sonntag 10:00–16:00 Uhr</li>
+          <li>Ort: Online (Zoom)</li>
+        </ul>
+        <hr style="border:0;border-top:1px solid var(--border);margin:16px 0">
+        <div class="kicker">Investition</div>
+        <p style="margin:.4rem 0 0"><strong>299,00 € inkl. MwSt.</strong></p>
+        <p class="muted" style="margin:.2rem 0 0">inkl. Zertifikat, Einweihungsurkunde, hochwertigem Skript &amp; persönlichem Heilungstool (per Post)</p>
+        <p class="muted" style="margin-top:10px">⏰ Anmeldeschluss: 16 Tage vor Termin (Energetisierung deines Heilungstools)</p>
+      </div>
+    </div>
+    <div class="stamp">AKASHA</div>
+  </header>
+
+  <main id="infos" class="container">
+    <section class="section grid two">
+      <div class="card">
+        <div class="kicker">Was dich erwartet</div>
+        <h2 class="title" style="font-size:1.8rem;margin-top:8px">Inhalte & Ergebnisse</h2>
+        <div class="underbar"></div>
+        <ul class="list">
+          <li>Grundlagen des AKASHA Lesens – sicher & strukturiert</li>
+          <li>Energetische Wiederanbindung an deine persönliche AKASHA</li>
+          <li>Kontakt mit deinem persönlichen AKASHA Geistführer</li>
+          <li>Einweihung in die <strong>LOVE &amp; LIGHT Heilenergie der Neuen Zeit</strong></li>
+          <li>Mediales Heilungstool (HT1) für deine eigene energetische Heilung</li>
+          <li>Praxis in der Kleingruppe, Q&amp;A &amp; Integration</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="kicker">Ablauf & Rahmen</div>
+        <h2 class="title" style="font-size:1.8rem;margin-top:8px">So läuft der Kurs</h2>
+        <div class="underbar"></div>
+        <ul class="list">
+          <li>Live‑Online via Zoom · kleine, persönliche Gruppe</li>
+          <li>Samstag 10–17 Uhr · Sonntag 10–16 Uhr</li>
+          <li>Technik: PC/Notebook/Tablet, stabiles WLAN &amp; Webcam</li>
+          <li>Für wen geeignet: Glaube an Reinkarnation; Vorerfahrung von Vorteil, nicht Pflicht</li>
+          <li>Unsicher? – <a href="mailto:antje@lutze-coaching.de?subject=Fragen%20zum%20Akasha%20Chronik%20Grundkurs%20Level%201">Kostenloses Kennenlerngespräch per E‑Mail anfragen</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="card">
+        <div class="kicker">Bonus & Material</div>
+        <h2 class="title" style="font-size:1.8rem;margin-top:8px">Du erhältst per Post</h2>
+        <div class="underbar"></div>
+        <ul class="list">
+          <li>Dein persönliches, <strong>energetisiertes Heilungstool (HT1)</strong></li>
+          <li>Hochwertiges AKASHA Life® Skript</li>
+          <li>Zertifikat &amp; Einweihungsurkunde</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="grid two">
+        <div class="card">
+          <div class="kicker">Fragen & Antworten</div>
+          <h2 class="title" style="font-size:1.8rem;margin-top:8px">FAQ</h2>
+          <div class="underbar"></div>
+          <details>
+            <summary>Ich bin unsicher, ob ich „genug“ Vorerfahrung habe.</summary>
+            <p>Vorerfahrung ist hilfreich, aber keine Pflicht. Wir arbeiten strukturiert, sicher und in einer kleinen Gruppe – du wirst gut abgeholt. Schreib mir gern für ein kurzes Vorgespräch.</p>
+          </details>
+          <details>
+            <summary>Wie melde ich mich an?</summary>
+            <p>Klicke auf „Jetzt per E‑Mail anmelden“. Du erhältst dann alle nächsten Schritte (inkl. Rechnung, Ablauf & Zugang). Alternativ: schreibe direkt an <strong>antje@lutze-coaching.de</strong>.</p>
+          </details>
+          <details>
+            <summary>Bis wann ist die Anmeldung möglich?</summary>
+            <p>Der Anmeldeschluss ist 16 Tage vor dem Termin, da dein Heilungstool individuell energetisiert wird.</p>
+          </details>
+        </div>
+        <div class="card" style="display:flex;flex-direction:column;justify-content:center;align-items:flex-start">
+          <div class="kicker">Ready?</div>
+          <h2 class="title" style="font-size:1.8rem;margin-top:8px">Setz den ersten Schritt</h2>
+          <div class="underbar"></div>
+          <p class="muted">Schreibe mir eine kurze E‑Mail – ich schicke dir die Details und halte deinen Platz frei.</p>
+          <a class="btn" href="mailto:antje@lutze-coaching.de?subject=Anmeldung%20Akasha%20Chronik%20Grundkurs%20Level%201">Jetzt per E‑Mail anmelden</a>
+          <p class="muted" style="margin:.7rem 0 0">📧 Oder direkt schreiben: <strong>antje@lutze-coaching.de</strong></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="cta-bar">
+    <div class="container cta-wrap">
+      <span>✨ Bereit für deine Einweihung? – <strong>Akasha Chronik Grundkurs Level 1</strong></span>
+      <div style="display:flex; gap:10px; align-items:center; flex-wrap:wrap">
+        <a class="btn" href="mailto:antje@lutze-coaching.de?subject=Anmeldung%20Akasha%20Chronik%20Grundkurs%20Level%201">Jetzt Platz sichern</a>
+        <span class="muted" style="font-size:.95rem">oder E‑Mail an <strong>antje@lutze-coaching.de</strong></span>
+      </div>
+    </div>
+  </div>
+
+  <footer class="container">
+    <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;justify-content:space-between">
+      <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
+        <img src="logo.png" alt="AKASHA Life® – Lizenzierte Mentorin Logo" style="height:40px;width:auto" />
+        <span>© <span id="year"></span> AKASHA Life® – Lizenzierte Mentorin. Alle Rechte vorbehalten.</span>
+      </div>
+      <div class="muted">Kontakt: <strong>antje@lutze-coaching.de</strong></div>
+    </div>
+  </footer>
+
+  <script>
+    // Jahr automatisch setzen
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
